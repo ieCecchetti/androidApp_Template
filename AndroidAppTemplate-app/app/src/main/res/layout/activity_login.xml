@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+
+        <ImageView
+            app:srcCompat="@drawable/crypto_evo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorMainWhite"
+            android:textSize="30sp"
+            android:height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:background="@color/colorMainWhite"
+            android:text="Email"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/et_email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:height="40dp"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorMainWhite"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="11dp"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:ems="10"
+            android:id="@+id/et_password"
+            android:text="Password"
+            android:gravity="center" />
+
+        <Button
+            android:text="Entra"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorMainWhite"
+            android:layout_width="match_parent"
+            android:layout_marginTop="11dp"
+            android:textSize="25sp"
+            android:id="@+id/btn_Log"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="NON SEI REGISTRATO?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:id="@+id/tv_registration"
+            android:textColor="@color/colorThird"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

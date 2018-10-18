@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cekke.nuloOfficial.MainActivity">
+    <!--    IN CASE I NEED TO USE IT (in main image is commented)
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_nulo_settings"
+        />
+        -->
+    <item
+        android:id="@+id/action_Credits"
+        android:orderInCategory="200"
+        android:title="Credits"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_whos_black_24dp"/>
+
+    <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="200"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_logout_black_24dp"/>
+
+</menu>

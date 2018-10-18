@@ -1,0 +1,75 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/iv_item_img"
+            android:src="@drawable/item" />
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tb_item_name"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Item_Name"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tb_item_detail"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:text="see Details..." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iv_item_cart"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/tv_item_rating"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ic_circle"
+                android:paddingLeft="10dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="20dp"
+                android:text="25.45 $"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="-3dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/iv_item_decrease"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cart"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

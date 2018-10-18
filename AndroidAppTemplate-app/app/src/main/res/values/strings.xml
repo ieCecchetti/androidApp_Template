@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MYAPP</string>
+    //--------------------------------------------------------------------INTRO
+    <string name="welcome_title">MYAPP</string>
+    <string name="welcome_collaborator">Software by eCProg</string>
+    <string name="welcome_subtitle">Follow my works on GIT!</string>
+    //--------------------------------------------------------------------FILL_ACTIVITY
+    <string name="fill_Title">Filler</string>
+    <string name="fill_SubTitle">Here a filler subtitle for your activity!</string>
+    <string name="fill_Description">Ipsum è un testo segnaposto utilizzato nel settore della
+        tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal
+        sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò
+        per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche
+        al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso
+        popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”,
+        che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione
+        come Aldus PageMaker, che includeva versioni del Lorem Ipsum.
+    </string>
+    //--------------------------------------------------------------------CREDITS
+    <string name="name">MY OFFICIAL APP</string>
+    <string name="version">Versione: 1.0 (Beta)</string>
+    <string name="relised">Release: 30/12/2017</string>
+    <string name="prod">Prod by by ieProject</string>
+    <string name="contacts">Indirizzi mail creatori:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
